@@ -21,6 +21,7 @@ $ cd superplay-master
 
 Or, using *git*:
 
+			
 ~~~
 $ git clone https://github.com/jalalhejazi/superplay.git
 $ cd superplay

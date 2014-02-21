@@ -9,8 +9,8 @@ function printHelp(exitp) {
     process.stdout.write("\n_____________________________________________________________________________________ \n ");
 
     process.stdout.write("\n  Usage: superplay [options] --add path1 -add path2 ...\n");
-    process.stdout.write("\n  Eks.1:   superplay --add ~/           --port 1234 \n");
-    process.stdout.write("\n  Eks.2:   superplay --add ~/home/video --port 8888 \n");
+    process.stdout.write("\n  Eks.1:   ./bin/superplay  --add ~/           --port 1234 \n");
+    process.stdout.write("\n  Eks.2:   ./bin/superplay  --add ~/home/video --port 8888 \n");
 
     process.stdout.write("\n  Options:\n");
     process.stdout.write("          -a, --add     Add a directory or media file to serve\n");
