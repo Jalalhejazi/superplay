@@ -2,7 +2,6 @@
 server. Simply put, use your phone and the Raspberry Pi to
 play videos.
 
-<img alt="superplay screenshot" src="screenshot.png">
 
 ## Install
 
