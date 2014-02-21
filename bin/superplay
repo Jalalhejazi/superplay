@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+## Jalal Hejazi 2014
+## use this script to install node (NOT nodejs) :-)
 ##
 ## This is a convenience script that finds (or installs) node.js, and
 ## gets the path lined up to execute the server application.

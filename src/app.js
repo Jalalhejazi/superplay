@@ -4,13 +4,20 @@ var server = require('./server').http,
     filesToLoad = [];
 
 function printHelp(exitp) {
-    process.stdout.write("superplay by Jalal Hejazi 2014 ( sourcecode: github.com/jalalhejazi/superplay )  \n");
-    process.stdout.write("Usage: superplay [options] --add path1 -add path2 ...\n");
-    process.stdout.write("  -a, --add=path    Add a directory or media file to serve\n");
-    process.stdout.write("Options:\n");
-    process.stdout.write("  -p, --port=num    Port to run the HTTP server on [" + port + "]\n");
-    process.stdout.write("      --background  Background processes won't prompt for user input\n");
-    process.stdout.write("  -h, --help        Print help\n");
+    process.stdout.write("\n_____________________________________________________________________________________ \n ");
+    process.stdout.write("    superplay by Jalal Hejazi 2014 ( sourcecode: github.com/jalalhejazi/superplay )  ");
+    process.stdout.write("\n_____________________________________________________________________________________ \n ");
+
+    process.stdout.write("\n  Usage: superplay [options] --add path1 -add path2 ...\n");
+    process.stdout.write("\n  Eks.1:   superplay --add ~/           --port 1234 \n");
+    process.stdout.write("\n  Eks.2:   superplay --add ~/home/video --port 8888 \n");
+
+    process.stdout.write("\n  Options:\n");
+    process.stdout.write("          -a, --add     Add a directory or media file to serve\n");
+    process.stdout.write("          -p, --port    Port to run the HTTP server on [" + port + "]\n");
+    process.stdout.write("          --background  Background processes won't prompt for user input\n");
+    process.stdout.write("          -h, --help    Print help\n\n");
+
     if (exitp) {
         process.exit(0);
     }
