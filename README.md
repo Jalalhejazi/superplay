@@ -1,3 +1,5 @@
+## Media Server with Raspberry Pi  (only using javaScript for server & client) 
+
 *superplay* is a web-based remote control for a media
 server. Simply put, use your phone and the Raspberry Pi to
 play videos.
@@ -61,12 +63,18 @@ And with everything in place, start the server and add a
 directory of media files:
 
 ~~~
-$ ./bin/superplay --add ~/vids
-Adding files from directory /home/me/vids ...... all loaded!
+
+$ ./bin/superplay --add ~/mp4
+Adding files from directory /home/pi/mp4 ...... all loaded!
 Firing up the superplay HTTP server on port 8000
+
+$ ./bin/superplay --add ~/mp4 --port 1234
+Adding files from directory /home/pi/mp4 ...... all loaded!
+Firing up the superplay HTTP server on port 1234
+
 ~~~
 
-Now simply point your web browser to `http://192.168.2.x:8000`
+Now simply point your web browser to `http://192.168.1.x:1234`
 (or wherever the pi is on your local network), find a
 movie title, and click to play :)
 
@@ -74,7 +82,6 @@ As an added convenience, save this page to your phone's home
 screen and run it like a native application. On the iPhone,
 click the share button within the browser, then "Add to Home Screen".
 
-The `superplay` server is a bit noisy for testing purposes.
 If it's running as a background job, you may want to redirect the output:
 
 ~~~
