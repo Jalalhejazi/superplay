@@ -57,7 +57,8 @@ want to install it globally, take a look around
 a suitable binary. 
 This build takes forever (unless you go to sleep after make install)
 
-save all these commands in a file name it "install-node.sh"
+save all these commands as shell script file
+here is a link <a href="install-node.sh">install-node.sh</a>
 
 ~~~
 wget http://nodejs.org/dist/v0.10.26/node-v0.10.26.tar.gz
