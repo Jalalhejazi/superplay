@@ -29,7 +29,7 @@ $ unzip master.zip
 $ cd superplay-master
 ~~~
 
-Or, using *git* (only if you need to code with me :-):
+Or, using *git* (only if you need to code with me :-)
 			
 ~~~
 SSH  $ git clone git@github.com:Jalalhejazi/superplay.git
@@ -85,14 +85,17 @@ This build takes forever ( 2 hours or more)
 ~~~
 
 
-And with everything in place, start the server and add a
-directory of media files:
+### after installation play some videos :-) 
+
+And with everything in place, 
+start the server and add a directory of media files:
 
 ~~~
 
 $ ./bin/superplay --add ~/mp4
 Adding files from directory /home/pi/mp4 ...... all loaded!
 Firing up the superplay HTTP server on port 8000
+
 
 $ ./bin/superplay --add ~/mp4 --port 1234
 Adding files from directory /home/pi/mp4 ...... all loaded!
@@ -105,8 +108,9 @@ Now simply point your web browser to `http://192.168.1.x:1234`
 movie title, and click to play :)
 
 As an added convenience, save this page to your phone's home
-screen and run it like a native application. On the iPhone,
-click the share button within the browser, then "Add to Home Screen".
+screen and run it like a native application. 
+On the iPhone or any mobile device click the share button within the browser, then "Add to Home Screen".
+
 
 If it's running as a background job, you may want to redirect the output:
 
@@ -114,7 +118,7 @@ If it's running as a background job, you may want to redirect the output:
 $ ./bin/superplay &> /dev/null &
 ~~~
 
-
+I hope you enjoy playing around as much I enjoyed hacking my pi 
 
 @JalalHejazi
 
