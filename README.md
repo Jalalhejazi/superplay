@@ -4,18 +4,20 @@
 server. Simply put, use any mobile-device and let the Raspberry Pi to
 play videos on your TV. (like apple TV)
 
-You can install node or nodejs
-If you chose to install the easy way, you will get nodejs (v0.6.19)
-If you chose to install the hard way, you will get node   (v0.10.26)
 
-
-
-## Install the easy way
+###
 
 Currently, *superplay* has been tested with the
 [Raspberry Pi](http://www.raspberrypi.org/) on the
-*Raspbian* image. It runs on [Node.js](http://nodejs.org)
-and uses *omxplayer* to display videos.
+*Raspbian* image. 
+
+You can install node in 2 ways:
+
+1: Install node the easy way (takes 2 minutes)
+2: Install node the hard way (takes 2 hours)
+
+
+## 1: Install node the easy way
 
 The first step is to log in to your Raspberry Pi and
 download the *superplay* source code:
@@ -26,8 +28,7 @@ $ unzip master.zip
 $ cd superplay-master
 ~~~
 
-Or, using *git*:
-
+Or, using *git* (only if you need to code with me :-):
 			
 ~~~
 SSH  $ git clone git@github.com:Jalalhejazi/superplay.git
@@ -43,12 +44,12 @@ $ ./bin/superplay --help
 
 This will check your system for the Node.js runtime and, if
 it's not available, automatically prompt you to download and
-install nodejs (NOT node) (The Raspberry Pi requires the ARM version)
+install node (The Raspberry Pi requires the ARM version)
 
 
-## Install node the hard way
 
-This is how I will install node (NOT nodejs) 
+## 2: Install node the hard way
+
 If node isn't available for your system, or you
 want to install it globally, take a look around
 [nodejs.org/dist/](http://nodejs.org/dist/) and try to find
@@ -111,3 +112,8 @@ If it's running as a background job, you may want to redirect the output:
 ~~~
 $ ./bin/superplay &> /dev/null &
 ~~~
+
+
+
+@JalalHejazi
+
