@@ -50,7 +50,6 @@ and `DAEMON_ARGS` variables to match your own system setup.
 # Description:       superplay init at boot.
 ### END INIT INFO
 
-# Author: Billy jalalhejazi <b@jalalhejazi.org>
 USER=me
 # node must be in PATH, or in the superplay directory
 PATH=/sbin:/usr/sbin:/bin:/usr/bin:/home/$USER/bin
