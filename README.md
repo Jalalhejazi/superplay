@@ -4,8 +4,13 @@
 server. Simply put, use any mobile-device and let the Raspberry Pi to
 play videos on your TV. (like apple TV)
 
+You can install node or nodejs
+If you chose to install the easy way, you will get nodejs (v0.6.19)
+If you chose to install the hard way, you will get node   (v0.10.26)
 
-## Install
+
+
+## Install the easy way
 
 Currently, *superplay* has been tested with the
 [Raspberry Pi](http://www.raspberrypi.org/) on the
@@ -41,7 +46,7 @@ it's not available, automatically prompt you to download and
 install nodejs (NOT node) (The Raspberry Pi requires the ARM version)
 
 
-## Install node
+## Install node the hard way
 
 This is how I will install node (NOT nodejs) 
 If node isn't available for your system, or you
