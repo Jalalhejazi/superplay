@@ -14,6 +14,7 @@ Currently, *superplay* has been tested with the
 You can install node in 2 ways:
 
 1: Install node the easy way (takes 2 minutes)
+
 2: Install node the hard way (takes 2 hours)
 
 
