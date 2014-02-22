@@ -68,7 +68,7 @@ $ scp install-node.sh pi@192.168.1.x:
 
 ~~~
 
-then start the installtion using 
+then start the compile+build+installation process 
 
 ~~~
 pi@raspberrypi ~ $     sudo sh install-node.sh
