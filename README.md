@@ -36,15 +36,15 @@ $ ./bin/superplay -h
 
 This will check your system for the Node.js runtime and, if
 it's not available, automatically prompt you to download and
-install it. If node isn't available for your system, or you
+install nodejs (The Raspberry Pi requires the ARM version)
+
+
+
+If node isn't available for your system, or you
 want to install it globally, take a look around
 [nodejs.org/dist/](http://nodejs.org/dist/) and try to find
-a suitable binary. (The Raspberry Pi requires the ARM version.)
-
-
-If you need to build yourself with the latest node version,
+a suitable binary. 
 This build takes forever (unless you go to sleep after make install)
-check the latest node available> http://nodejs.org/dist/
 
 ~~~
 wget http://nodejs.org/dist/v0.10.26/node-v0.10.26.tar.gz
