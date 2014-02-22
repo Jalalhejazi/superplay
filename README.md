@@ -41,6 +41,22 @@ want to install it globally, take a look around
 [nodejs.org/dist/](http://nodejs.org/dist/) and try to find
 a suitable binary. (The Raspberry Pi requires the ARM version.)
 
+
+If you need to build yourself with the latest node version,
+This build takes forever (unless you go to sleep after make install)
+check the latest node available> http://nodejs.org/dist/
+
+~~~
+wget http://nodejs.org/dist/v0.10.26/node-v0.10.26.tar.gz
+tar -zxf node-v0.10.26.tar.gz
+cd node-v0.10.26
+./configure
+make
+sudo make install
+~~~
+
+
+
 And with everything in place, start the server and add a
 directory of media files:
 
