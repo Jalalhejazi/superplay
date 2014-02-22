@@ -23,8 +23,9 @@ Or, using *git*:
 
 			
 ~~~
-$ git clone https://github.com/jalalhejazi/superplay.git
-$ cd superplay
+SSH  $ git clone git@github.com:Jalalhejazi/superplay.git
+HTTP $ git clone https://github.com/jalalhejazi/superplay.git
+	 $ cd superplay
 ~~~
 
 Now that you have it, take a look at the command-line options:
