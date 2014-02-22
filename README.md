@@ -63,19 +63,19 @@ sudo make install
 
 secure copy your install-node.sh to your pi home directory: 
 
-~~
+~~~
 $ scp install-node.sh pi@192.168.1.x:  
 
-~~
+~~~
 
 then start the installtion using 
 
-~~ 
+~~~
 pi@raspberrypi ~ $     sudo sh install-node.sh
 
 This build takes forever ( 2 hours or more)
 
-~~
+~~~
 
 
 And with everything in place, start the server and add a
