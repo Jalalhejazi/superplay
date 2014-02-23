@@ -93,8 +93,6 @@ node   --version
 npm    --version 
 ~~~
 
-<img src="images/node_version.tiff" alt="test your node versions">
-
 
 ### after installation play some videos :-) 
 
