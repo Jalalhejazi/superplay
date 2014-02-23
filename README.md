@@ -72,8 +72,7 @@ sudo make install
 secure copy your install-node.sh to your pi home directory: 
 
 ~~~
-$ scp install-node.sh pi@192.168.1.x:  
-
+$ scp install-node.sh pi@192.168.1.x: 
 ~~~
 
 then start the compile+build+installation process 
@@ -82,8 +81,19 @@ then start the compile+build+installation process
 pi@raspberrypi ~ $     sudo sh install-node.sh
 
 This build takes forever ( 2 hours or more)
+I use "screen -r" to monitor the progress 
+~~~
+
+### how to validate if your node installation is working
+
 
 ~~~
+nodejs --version
+node   --version
+npm    --version 
+~~~
+
+<a href="images/node_version.tiff">test your node versions</a>
 
 
 ### after installation play some videos :-) 
